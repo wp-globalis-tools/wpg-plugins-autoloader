@@ -1,4 +1,4 @@
-# Modification of standard WP-Config use : specify wp-config for each environment
+# Force enable/disable plugins with environment config
 
 ## Installation
 
