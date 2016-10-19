@@ -5,6 +5,7 @@
 Parse below code to your wp-config/< WP_ENV >/options.php file.
 
 ```PHP
+// WPG PLUGINS AUTOLADER : FORCE ENABLE
 $wpg_force_plugins_enable = [
 	'redis-cache/redis-cache.php',
 ];
