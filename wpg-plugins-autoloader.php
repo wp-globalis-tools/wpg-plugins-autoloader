@@ -7,7 +7,7 @@ Author URI:   http://globalis-ms.com/
 Version:      1.0
 */
 
-namespace WPG\PluginsAutoloader;
+namespace Globalis\PluginsAutoloader;
 
 // SINGLE SITE PLUGINS :
 add_filter('option_active_plugins', __NAMESPACE__ . '\\enable_plugins', 99);
