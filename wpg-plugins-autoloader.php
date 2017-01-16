@@ -3,8 +3,8 @@
 Plugin Name:  WPG Plugins Autoloader
 Description:  Force enable/disable plugins with environment config
 Author:       GLOBALIS media systems
-Author URI:   http://globalis-ms.com/
-Version:      1.0
+Author URI:   https://www.globalis-ms.com/
+Version:      0.2.0
 */
 
 namespace Globalis\PluginsAutoloader;
