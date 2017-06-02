@@ -1,13 +1,18 @@
 <?php
-/*
-Plugin Name:  WPG Plugins Autoloader
-Description:  Force enable/disable plugins with environment config
-Author:       GLOBALIS media systems
-Author URI:   https://www.globalis-ms.com/
-Version:      0.2.0
-*/
+/**
+ * Plugin Name:         WPG Plugins Autoloader
+ * Plugin URI:          https://github.com/wp-globalis-tools/wpg-plugins-autoloader
+ * Description:         Force enable/disable plugins with environment config
+ * Author:              Pierre Dargham, Globalis Media Systems
+ * Author URI:          https://www.globalis-ms.com/
+ * License:             GPL2
+ *
+ * Version:             0.3.0
+ * Requires at least:   4.0.0
+ * Tested up to:        4.7.8
+ */
 
-namespace Globalis\PluginsAutoloader;
+namespace Globalis\WP\PluginsAutoloader;
 
 // SINGLE SITE PLUGINS :
 add_filter('option_active_plugins', __NAMESPACE__ . '\\enable_plugins', 99);

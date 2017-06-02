@@ -1,16 +1,26 @@
 {
-    "name": "globalis/wpg-plugins-autoloader",
-    "description": "Force enable/disable plugins with environment config",
-    "type": "wordpress-muplugin",
-    "homepage": "https://github.com/wp-globalis-tools/wpg-plugins-autoloader",
-		"authors": [
-			{
-				"name": "Pierre Dargham",
-				"homepage": "https://github.com/pierre-dargham/"
-			},
-			{
-				"name": "GLOBALIS media systems",
-				"homepage": "https://www.globalis-ms.com/"
-			}
-		]
+    "name":"globalis/wpg-plugins-autoloader",
+    "type":"wordpress-muplugin",
+    "license":"GPL-2.0",
+    "description":"Force enable/disable plugins with environment config",
+    "homepage":"https://github.com/wp-globalis-tools/wpg-plugins-autoloader",
+    "authors":[
+        {
+            "name":"Pierre Dargham",
+            "homepage":"https://github.com/pierre-dargham/"
+        },
+        {
+            "name":"GLOBALIS media systems",
+            "homepage":"https://www.globalis-ms.com/"
+        }
+   ],
+   "keywords":[
+        "wordpress"
+   ],
+   "support":{
+        "issues":"https://github.com/wp-globalis-tools/wpg-plugins-autoloader/issues"
+   },
+   "require":{
+        "php":">=5.5"
+   }
 }
